@@ -4,3 +4,4 @@ metadata:
   name: {{ .Release.Name  }}-configmap
 data:
   myvalue: "Sample Config Map"
+  costCode: {{ .Values.costCode }}
