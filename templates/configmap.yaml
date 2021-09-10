@@ -5,3 +5,6 @@ metadata:
 data:
   myvalue: "Sample Config Map"
   costCode: {{ .Values.costCode }}
+  Zone: {{ quote  .Values.infra.zone }}
+  Region: {{ quote .Values.infra.region }}
+  ProjectCode: {{ upper  .Values.projectCode }}

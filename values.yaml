@@ -1,1 +1,5 @@
 costCode: CC98112
+projectCode: um_codigo
+infra:
+  zone: Testing
+  region: BR
