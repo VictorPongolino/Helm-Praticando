@@ -3,3 +3,8 @@ projectCode: um_codigo
 infra:
   zone: Testing
   region: BR
+tags:
+  machine: frontdrive
+  rack: 4c
+  drive: ssd
+  vcard: 8g 
