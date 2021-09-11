@@ -11,3 +11,12 @@ data:
   pipeline: {{ .Values.projectCode | upper | quote  }}
   now: {{ now | date "2006-01-02" | quote  }}
   contact: {{ .Values.contact | default "1-800-123-0000" | quote }}
+
+  # Conditional Tests (Flow Test)
+  c_lt: {{ lt 1 2 }}
+  c_gt: {{ gt 1 2 }}
+  c_eq: {{ eq 1 2 }}
+  c_ne: {{ ne 1 2 }}
+  c_le: {{ le 1 2 }}
+  c_ge: {{ ge 1 2 }}
+
