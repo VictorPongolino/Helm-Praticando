@@ -21,6 +21,9 @@ data:
   Video Card: {{ .vcard | quote }}
   {{- end }}
 
+mysubchart:
+  dbhost: prodmysqlnode
+
   # Conditional Tests (Flow Test )
   # c_lt: {{ lt 1 2 }}
   # c_gt: {{ gt 1 2 }}
